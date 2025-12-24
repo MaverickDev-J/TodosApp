@@ -1,24 +1,28 @@
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
 
-# Virtual environment
+# Virtual environments
 venv/
 .env/
 
 # Testing
 .pytest_cache/
 
-# Database files
+# Databases (local/dev only)
 *.db
 *.sqlite3
 
-# OS files
+# Alembic cache
+alembic/__pycache__/
+
+# OS
 .DS_Store
 Thumbs.db
 
 # IDEs
 .vscode/
 .idea/
+
 
 commands.txt
